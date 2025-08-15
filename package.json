@@ -20,9 +20,6 @@
   "dependencies": {
     "base32-decode": "^1.0.0",
     "base32-encode": "^2.0.0",
-    "clipboardy": "^4.0.0",
-    "node-global-key-listener": "^0.3.0",
-    "node-key-sender": "^1.0.11",
-    "uiohook-napi": "^1.5.4"
+    "clipboardy": "^4.0.0"
   }
 }
