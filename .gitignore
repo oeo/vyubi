@@ -1,0 +1,63 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.vyubi
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+# vyubi state files
+.vyubi-state.json
+
+# native build artifacts
+build/
+*.node
+
+# test environment files
+.env.vyubi.test
+
+# editor files
+*.swp
+*.swo
+*~
+.vscode/
+
+# os files
+Thumbs.db
+
+# python cache (from node-gyp)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# bun
+bun.lockb
+*.bun
